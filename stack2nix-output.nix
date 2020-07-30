@@ -34317,7 +34317,7 @@ inherit (pkgs) libjpeg; inherit (pkgs) libpng; inherit (pkgs) zlib;};
          mkDerivation {
            pname = "static-mpv";
            version = "0.1.0.0";
-           src = /home/tek/code/tek/haskell/static-haskell-mpv/.;
+           src = /home/tek/code/tek/haskell/static-mpv/.;
            isLibrary = false;
            isExecutable = true;
            libraryToolDepends = [ hpack ];
